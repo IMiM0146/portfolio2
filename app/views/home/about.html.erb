@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<%= render 'home/template/header' %>
+<body>
+  <div class="wrapper">
+    <%= render 'home/template/bodyHeader' %>
+
+    <main class="content">
+        <!-- about -->
+      <section class="about section" id="about">
+        <div class="inner">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/profile.jpg" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                作編曲家/ギタリスト/サックス奏者/コンダクター/Unityエンジニア
+              </p>
+              <p>
+                明治大学理工学部情報科学科卒業。<br>
+                在学中はVRライブの演出やハイパーカジュアルゲームの制作に携わる。<br>
+                応用情報技術者。<br><br>
+                趣味は音楽ゲーム。<br>
+                中でもmaimaiとjubeatが得意。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="inner">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/unity.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Unity - C#</h3>
+                <p class="skill-text">
+                  C#コーディング経験あり。（実務2年）</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/cubase.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Cubase - 作編曲</h3>
+                <p class="skill-text">
+                  Cubase proを用いた楽曲制作経験あり。<br>
+                  制作した曲については
+                  <a href="https://www.youtube.com/channel/UCZcCKTJpJtnbm90-YA1oR0w" target="_blank" rel="noopener noreferrer">こちら</a>。
+                </p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/guitar.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">楽器演奏 - ギター</h3>
+                <p class="skill-text">
+                  アコースティックギター歴
+                  <script language="JavaScript">
+                    mydate=new Date();
+                    document.write(mydate.getFullYear()-2012);
+                  </script>
+                  年。<br>
+                  クラシックギター歴
+                  <script language="JavaScript">
+                    mydate=new Date();
+                    document.write(mydate.getFullYear()-2014);
+                  </script>
+                  年。<br>
+                  エレキギター歴
+                  <script language="JavaScript">
+                    mydate=new Date();
+                    document.write(mydate.getFullYear()-2017);
+                  </script>
+                  年。（重複あり）<br>
+                  宅録も可能ですのでお気軽にご依頼ください。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/sax.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">楽器演奏 - テナーサックス</h3>
+                <p class="skill-text">
+                  テナーサックス歴
+                  <script language="JavaScript">
+                    mydate=new Date();
+                    document.write(mydate.getFullYear()-2017);
+                  </script>
+                  年。<br>
+                  演奏依頼はお気軽にお申し付けください。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/license.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">資格 - 応用情報技術者</h3>
+                <p class="skill-text">
+                  令和3年6月25日取得。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/brain.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">人工知能 - GAN</h3>
+                <p class="skill-text">
+                  GAN（敵対的生成ネットワーク）の開発経験あり。<br>
+                  制作物はこちら。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+    </main>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+<%= render 'home/template/footer' %>
+</html>
