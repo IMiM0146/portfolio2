@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<%= render 'home/template/header' %>
+<body>
+  <div class="wrapper">
+    <%= render 'home/template/bodyHeader' %>
+
+    <main class="content">
+      <article class="article">
+        <div class="article-inner">
+          <h2 class="article-title">VRライブ演出</h2>
+          <p class="article-img">
+            <img src="img/subaru.jpg" alt="">
+          </p>
+          <div class="article-body">
+            <p>
+              VRライブの演出開発に携わりました。（2021/06-2022/01）
+            </p>
+            <h3 class="article-info-title">URL</h3>
+            <p><a href="https://vark.co.jp/" target="_blank" rel="noopener">株式会社VARK</a></p>
+            <h3 class="article-info-title">担当</h3>
+            <p>ライティング・その他演出全般</p>
+          </div>
+          <div class="home-link">
+            <a href="/works">Works一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+<%= render 'home/template/footer' %>
+</html>

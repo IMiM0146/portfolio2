@@ -81,8 +81,7 @@ body {
     top: 0;
     z-index: 1;
     width: 100%;
-    background-color: #fff;
-    box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+    background: linear-gradient(to bottom, rgba(1,1,1,0.7) 75%, transparent);
   }
   
   .header .inner {
@@ -93,7 +92,7 @@ body {
   }
   
   .header-logo {
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     line-height: 1.2;
     margin-right: 20px;
@@ -101,7 +100,7 @@ body {
   }
   
   .header-logo a {
-    color: #333;
+    color: #2ecfe8;
   }
   
   .header-nav-list {
@@ -115,13 +114,13 @@ body {
   
   .header-nav-item a {
     position: relative;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: bold;
     display: inline-block;
     padding: 5px 0;
     transition: .3s;
     letter-spacing: .05em;
-    color: #333;
+    color: #2ecfe8;
   }
   .header-nav-item a:after {
     position: absolute;
@@ -162,7 +161,7 @@ body {
     line-height: 1.2;
     margin-bottom: 5px;
     letter-spacing: .1em;
-    color: #fff;
+    color: #2ecfe8;
   }
   .main-visual-subtitle {
     font-size: 20px;
@@ -170,11 +169,11 @@ body {
     line-height: 1;
     margin-bottom: 40px;
     letter-spacing: .08em;
-    color: #fff;
+    color: #2ecfe8;
   }
   
   .main-visual-text {
-    color: #fff;
+    color: #2ecfe8;
   }
   
   /*--------------------------------
@@ -308,14 +307,16 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 10px;
-    background-color: rgba(51, 51, 51, 0.75);
+    padding-top: 60px;
+    padding-bottom: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 80%, rgba(46,207,232,0.7) 20%);
   }
   
   .copyright {
     font-size: 10px;
-    text-align: center;
-    color: #797979;
+    text-align: right;
+    padding: 0% 2%;
+    color: #aaaaaa;
   }
   
   /*--------------------------------
@@ -483,6 +484,7 @@ body {
     /* フッター */
     .footer {
       padding: 20px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 80%, rgba(46,207,232,0.7) 20%);
     }
   
     /* 下層ページ */
@@ -524,7 +526,34 @@ body {
     margin: auto;
    }
 
-   .SNS-icon{
+   .SNS-icon-TW{
     width: 50px;
     height: 50px;
+    position:absolute;
+    bottom: 10px;
+    right: 460px;
+   }
+
+   .SNS-icon-NC{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    bottom: 10px;
+    right: 400px;
+   }
+
+   .SNS-icon-YT{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    bottom: 10px;
+    right: 340px;
+   }
+
+   .SNS-icon-SC{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    bottom: 10px;
+    right: 280px;
    }
