@@ -7,8 +7,9 @@
 
     <main class="content">
       <div class="wrap">
-        <video id="bg-video" src="movie/Kira_MV_NonBGM.mp4" autoplay loop muted>
-        <img src="img/9.png" alt="Placeholder">
+        <%= video_tag("/videos/Kira_MV_NonBGM.mp4", autoplay: :true, loop: :true, muted: :true, id:"bg-video") %>
+        <!-- <%= image_tag '9.png', alt:"Placeholder"%> -->
+        <!-- <img src="img/9.png" alt="Placeholder"> -->
         </video>
           <div class="main-visual">
             <div class="main-visual-inner">
