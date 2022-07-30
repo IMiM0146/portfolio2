@@ -1,40 +1,26 @@
-<!DOCTYPE html>
-<html>
-<%= render 'home/template/header' %>
-<body>
-  <div class="wrapper">
-    <%= render 'home/template/bodyHeader' %>
-
-    <main class="content">
-      <article class="article">
-        <div class="article-inner">
-          <h2 class="article-title">template</h2>
-          <p class="article-img">
-            <%= image_tag 'maya.jpg', alt:""%>
-          </p>
-          <div class="article-body">
-            <p>
-              This is テンプレページ.
-            </p>
-            <h3 class="article-info-title">URL</h3>
-            <p><a href="https://twitter.com/iM_music72" target="_blank" rel="noopener">Twitter</a></p>
-            <h3 class="article-info-title">担当</h3>
-            <p>如月千早</p>
-          </div>
-          <div class="home-link">
-            <a href="/works">Works一覧へ</a>
-          </div>
-        </div>
-      </article>
-
-      <div class="page-top" id="js-page-top">
-        <span class="material-icons-outlined">expand_less</span>
+<main class="content">
+  <article class="article">
+    <div class="article-inner">
+      <h2 class="article-title">template</h2>
+      <p class="article-img">
+        <%= image_tag 'maya.jpg', alt:""%>
+      </p>
+      <div class="article-body">
+        <p>
+          This is テンプレページ.
+        </p>
+        <h3 class="article-info-title">URL</h3>
+        <p><a href="https://twitter.com/iM_music72" target="_blank" rel="noopener">Twitter</a></p>
+        <h3 class="article-info-title">担当</h3>
+        <p>如月千早</p>
       </div>
-    </main>
+      <div class="home-link">
+        <a href="/works">Works一覧へ</a>
+      </div>
+    </div>
+  </article>
 
+  <div class="page-top" id="js-page-top">
+    <span class="material-icons-outlined">expand_less</span>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type='text/javascript' src="js/script.js"></script>
-</body>
-<%= render 'home/template/footer' %>
-</html>
+</main>

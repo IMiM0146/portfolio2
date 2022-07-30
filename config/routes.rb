@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "/works" => "home#works"
   get "/works/vrlive" => "works#vrlive"
   get "/about" => "home#about"
+  get "/skill" => "home#skill"
   get "/blog" => "home#blog"
   get "/EN" => "home#EN"
   resources :contacts, only: [:new, :create]

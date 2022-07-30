@@ -1,34 +1,21 @@
-<!DOCTYPE html>
-<html>
-<%= render 'home/template/header' %>
-<body>
-  <div class="wrapper">
-    <%= render 'home/template/bodyHeader' %>
-
-    <main class="content">
-      <!-- works -->
-      <section class="works section" id="works">
-        <div class="inner">
-          <h2 class="title">WORKS</h2>
-          <div class="works-list">
-            <a class="works-item" href="/works/vrlive">
-              <p class="works-img"><%= image_tag 'towa.gif', alt:""%></p>
-              <p class="works-name">VARK</p>
-              <p class="works-info">VRライブ演出</p>
-            </a>
-            <a class="works-item" href="works/template">
-              <p class="works-img"><%= image_tag 'works-dummy-thumb.jpg', alt:""%></p>
-              <p class="works-name">未定</p>
-              <p class="works-info">unknown</p>
-            </a>
-          </div>
-        </div>
-      </section>
-      <!-- /works -->
-    </main>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type='text/javascript' src="js/script.js"></script>
-</body>
-<%= render 'home/template/footer' %>
-</html>
+<main class="content">
+  <!-- works -->
+  <section class="works section" id="works">
+    <div class="inner">
+      <h2 class="title">WORKS</h2>
+      <div class="works-list">
+        <a class="works-item" href="/works/vrlive">
+          <p class="works-img"><%= image_tag 'towa.gif', alt:""%></p>
+          <p class="works-name">VARK</p>
+          <p class="works-info">VRライブ演出</p>
+        </a>
+        <a class="works-item" href="works/template">
+          <p class="works-img"><%= image_tag 'works-dummy-thumb.jpg', alt:""%></p>
+          <p class="works-name">未定</p>
+          <p class="works-info">unknown</p>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- /works -->
+</main>
