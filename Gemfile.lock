@@ -142,6 +142,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.8-x86-mingw32)
       racc (~> 1.4)
+    pg (1.4.2)
+    pg (1.4.2-x86-mingw32)
     public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
@@ -245,12 +247,13 @@ DEPENDENCIES
   dotenv-rails
   importmap-rails
   jbuilder
+  pg
   puma (~> 5.0)
   rails (~> 7.0.1)
   sassc-rails
   selenium-webdriver
   sprockets-rails
-  sqlite3 (~> 1.4)
+  sqlite3
   stimulus-rails
   turbo-rails
   tzinfo-data
