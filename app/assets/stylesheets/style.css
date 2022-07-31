@@ -363,9 +363,76 @@ body {
     text-align: center;
   }
   
+
+  /* 新規追加 */
+  
+  /* https://www.webcreatorbox.com/tech/video-background */
+  /* https://beginners-high.com/background-movie/ */
+  #bg-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url('poster.jpg') no-repeat;
+    background-size: cover;
+   }
+  
+   .wrap{
+    height: 100vh;
+    background: radial-gradient(rgba(0, 0, 0, 1) 5%,rgba(0, 0, 0, 0.2) 70%);
+   }
+  
+   .header-title{
+    position: relative; /*必ず必要*/
+    z-index: 2; /*必ず必要*/
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin: auto;
+   }
+
+   .SNS-icon-TW{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    bottom: 10px;
+    right: 460px;
+   }
+
+   .SNS-icon-NC{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    bottom: 10px;
+    right: 400px;
+   }
+
+   .SNS-icon-YT{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    bottom: 10px;
+    right: 340px;
+   }
+
+   .SNS-icon-SC{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    bottom: 10px;
+    right: 280px;
+   }
+
   /*media Queries 767
   ----------------------------------------------------*/
   @media screen and (max-width: 767px) {
+
     body {
       font-size: 13px;
       line-height: 1.7;
@@ -486,74 +553,48 @@ body {
       padding: 20px;
       background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 80%, rgba(46,207,232,0.7) 20%);
     }
+    
+    .copyright {
+      font-size: 10px;
+      text-align: right;
+      padding: 0% 2%;
+      color: #aaaaaa;
+    }
+
+   .SNS-icon-TW {
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    bottom: 10px;
+    right: 350px;
+  }
+
+  .SNS-icon-NC {
+   width: 20px;
+   height: 20px;
+   position:absolute;
+   bottom: 10px;
+   right: 320px;
+    }
+
+   .SNS-icon-YT {
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    bottom: 10px;
+    right: 290px;
+    }
+
+   .SNS-icon-SC {
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    bottom: 10px;
+    right: 260px;
+    }
   
     /* 下層ページ */
     .article {
       padding: 50px 0;
     }
   }
-  
-  /* 新規追加 */
-  
-  /* https://www.webcreatorbox.com/tech/video-background */
-  /* https://beginners-high.com/background-movie/ */
-  #bg-video{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    background: url('poster.jpg') no-repeat;
-    background-size: cover;
-   }
-  
-   .wrap{
-    height: 100vh;
-    background: radial-gradient(rgba(0, 0, 0, 1) 5%,rgba(0, 0, 0, 0.2) 70%);
-   }
-  
-   .header-title{
-    position: relative; /*必ず必要*/
-    z-index: 2; /*必ず必要*/
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    margin: auto;
-   }
-
-   .SNS-icon-TW{
-    width: 50px;
-    height: 50px;
-    position:absolute;
-    bottom: 10px;
-    right: 460px;
-   }
-
-   .SNS-icon-NC{
-    width: 50px;
-    height: 50px;
-    position:absolute;
-    bottom: 10px;
-    right: 400px;
-   }
-
-   .SNS-icon-YT{
-    width: 50px;
-    height: 50px;
-    position:absolute;
-    bottom: 10px;
-    right: 340px;
-   }
-
-   .SNS-icon-SC{
-    width: 50px;
-    height: 50px;
-    position:absolute;
-    bottom: 10px;
-    right: 280px;
-   }
