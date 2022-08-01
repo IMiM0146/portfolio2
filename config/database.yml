@@ -22,6 +22,10 @@ test:
 
 production:
   <<: *default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
+  # adapter: postgresql
+  # encoding: unicode
+  # pool: 5
+  database: iM-HP
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
