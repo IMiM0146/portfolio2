@@ -79,6 +79,7 @@ end
 # https://qiita.com/kazukimatsumoto/items/a0daa7281a3948701c39
 group :production do
   # gem 'pg'
+  gem "mysql2"
 
   gem 'unicorn'
 end
