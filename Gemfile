@@ -55,7 +55,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   # https://qiita.com/kazukimatsumoto/items/a0daa7281a3948701c39
-  gem 'sqlite3'
+  # gem 'sqlite3'
 end
 
 group :development do
