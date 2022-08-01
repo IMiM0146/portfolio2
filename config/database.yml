@@ -23,8 +23,8 @@ test:
 production:
   <<: *default
   adapter: mysql2
-  encoding: unicode
-  pool: 5
+  # encoding: unicode
+  # pool: 5
   database: iM-HP
   username: root
   password: <%= ENV['DATABASE_PASSWORD'] %>
