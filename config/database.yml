@@ -23,12 +23,6 @@ test:
 production:
   <<: *default
   adapter: mysql2
-  # encoding: unicode
-  # pool: 5
-  # database: portfolio2
-  # username: root
-  # password: <%= ENV['DATABASE_PASSWORD'] %>
-  # socket: /var/lib/mysql/mysql.sock
   encoding: utf8mb4
   charset: utf8mb4
   database: <%= Rails.application.credentials.db[:database] %>
